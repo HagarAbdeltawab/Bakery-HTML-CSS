@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.text-center{
+    text-align: center;
+}
+.clear{
+    clear: both;
+} 
+
+/* section one */
+.home{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+.layer{
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0; 
+}
+.navbar{ 
+    width: 90%;
+    margin: auto;
+}
+.logo{ 
+    float: left;
+    width: 200px;
+    padding: 10px 50px;
+}
+.logo img{
+    width: 100%;    
+}
+.list{ 
+    float: right;
+    padding: 10px;
+}
+.list ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.list ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+}
+.home-content{
+    width: 50%;
+    padding-top: 200px;
+    margin: auto; 
+    text-align: center;
+    color: #fff;
+}
+.home-content p{
+    font-size: 20px;
+}
+.home-content h1{
+    font-size: 40px;
+    font-weight: 200;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.home-content .btn1{
+    padding: 13px 28px;
+    background-color: #8e7754;
+    border-radius: 4px;
+    border: 2px solid #8e7754;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 20px;
+    transition: all 1s;
+}
+.home-content .btn2{
+    padding: 13px 28px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700; 
+    margin-top: 20px;
+    transition: all 1s;
+}
+.home-content .btn1:hover, .home-content .btn2:hover{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #fff;
+}
+
+/* section two */
+.section-two{ 
+    width: 90%;
+    margin: 100px auto; 
+}
+.info-img{
+    width: 45%;  
+}
+.info{
+    width: 45%; 
+    display: inline-block;   
+    padding-left: 70px; 
+}
+.info-icons{
+    padding: 15px 0;
+}
+.info-icons img{
+    width: 40px; 
+    border-radius: 50%;
+    border: 1px solid #ddd; 
+}
+.info-icons p{
+    display: inline; 
+    padding: 0 20px ;
+    vertical-align: 13px;
+}
+
+
+/* section three */
+.section-three {
+    width: 90%;
+    padding: 100px 62px; 
+    background-color: #f8f8f8;
+    display: flex;
+}
+.location {
+    width: 45%;
+} 
+.section-three img{
+    padding-left: 70px; 
+}
+.section-three h2{
+    padding-top: 30px;
+}
+
+
+/* section four */
+.section-four {
+    width: 90%;
+    padding: 100px 62px;  
+}
+.baking{
+    width:31% ;
+    padding: 40px 12px;
+    float: left;
+}
+.baking img{
+    width: 100%;
+}
+
+
+/* section five */
+.section-five{
+    background-color: #f8f8f8;
+    width: 90%;
+    padding: 100px 62px;  
+}
+.section-five .contact{
+    width: 45%;
+    float: left;
+}
+.section-five .item{
+    padding-bottom: 20px;
+}
+.section-five .item img{
+    width: 40px; 
+    border-radius: 50%; 
+    background-color: #8e7754;
+}
+.section-five .item p{
+    display: inline; 
+    padding-left: 70px;
+    vertical-align: 13px;
+} 
+
+
+/* section six */
+.section-six{ 
+    padding: 100px 62px;  
+    background-color: #403d38; 
+}
+.us{
+    width: 24%;
+    float: left; 
+    padding-right: 10px;
+    color: #969696;
+    position: relative;
+} 
+.us img{
+    width: 20px;
+}
+.us p{
+    display: inline;
+    vertical-align: 5px;
+}
+.us h3 {
+    color: white;
+    font-size: 18px;
+} 
+.us-icon{
+    border-bottom: 1px solid #4f4f4f;
+    padding: 10px  0;
+}
+
+/* footer */
+.footer{
+    padding-top: 100px;
+    background-color: #353330; 
+    height: 300px;
+}
+.icons img{
+    width: 40px;
+} 
